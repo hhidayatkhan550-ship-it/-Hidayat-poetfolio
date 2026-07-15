@@ -78,4 +78,22 @@ text-align:center;
 padding:20px;
 margin-top:40px;
 }
-اس کے بعد:
+.project{
+    background:#ffffff;
+    border-left:6px solid #009688;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+    box-shadow:0 5px 12px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.project:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
+}
+
+.project h3{
+    color:#009688;
+    margin-bottom:10px;
+}
